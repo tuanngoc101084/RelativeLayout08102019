@@ -9,47 +9,40 @@
       android:text="View_1"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"/>
-    <Button
-        android:layout_centerHorizontal="true"
-        android:text="View_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+
     <Button
         android:layout_alignParentRight="true"
-        android:text="View_1"
+        android:text="View_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="View_1"
+        android:text="View_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
         android:layout_alignParentBottom="true"
-        android:text="View_1"
+        android:text="View_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <Button
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="View_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <Button
-        android:layout_centerVertical="true"
-        android:text="View_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <Button
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:text="View_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+
     <Button
         android:layout_centerInParent="true"
-        android:text="View_1"
+        android:text="View_5"
+        android:id="@+id/buttonView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="View_6"
+        android:layout_toLeftOf="@id/buttonView5"
+        android:layout_above="@+id/buttonView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_toLeftOf="@id/buttonView5"
+        android:text="View_7"
+        android:layout_below="@+id/buttonView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 </RelativeLayout>

@@ -45,4 +45,21 @@
         android:layout_below="@+id/buttonView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <Button
+        android:text="View_8"
+        android:layout_toRightOf="@id/buttonView5"
+        android:layout_above="@+id/buttonView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_toRightOf="@id/buttonView5"
+        android:text="View_9"
+        android:layout_below="@+id/buttonView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_alignLeft="@id/buttonView5"
+        android:text="View_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
